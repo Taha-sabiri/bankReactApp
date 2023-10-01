@@ -1,3 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Kalameh";
+  src: url('./assets/fonts/Kalameh-SemiBold.ttf') format('truetype') local('Kalameh'),
+       url('./assets/fonts/Kalameh-Regular.ttf') format('truetype') local('Kalameh') ,
+       url('./assets/fonts/Kalameh-ExtraBold.ttf') format('truetype') local('Kalameh'),
+       url('./assets/fonts/Kalameh-Light.ttf') format('truetype') local('Kalameh'),
+       url('./assets/fonts/Kalameh-Black.ttf') format('truetype') local('Kalameh'),
+       url('./assets/fonts/Kalameh-Thin.ttf') format('truetype') local('Kalameh');
+}
+
+p , h1 , h2 , h3 , h4 , button , li , a {
+  font-family: 'Kalameh';
+}
+
 .App {
   text-align: center;
 }
